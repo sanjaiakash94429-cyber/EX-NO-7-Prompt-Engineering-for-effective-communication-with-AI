@@ -8,7 +8,9 @@ The main purpose of prompt engineering is to guide artificial intelligence model
 •	Handle Complex Tasks: Break hard problems into smaller steps using methods like chain-of-thought reasoning.
 •	Bridge Vague Inputs: Help everyday user requests turn into structured, actionable commands that an AI application can actually process. 
 ~~~
+
 ## PROMPTING TECHNIQUES
+~~~
 1. Zero-Shot Prompting
 You give the AI a direct task or question with no background examples, relying entirely on its pre-trained knowledge.
 Example:
@@ -29,7 +31,10 @@ Example:
 You use clear, explicit commands with action verbs to outline constraints, formats, and rules without needing examples.
 Example:
 “Write a product description under 50 words using a professional tone.”
+~~~
+
 ### ESSENTIAL PROMPT TECHNIQUES
+~~~
 •	Context Framing: Set clear roles, target audiences, specific tones, and exact output formats.
 •	Advanced Prompting: Apply few-shot learning with examples and use chain-of-thought logic for complex problem-solving.
 •	Parameter Tuning: Adjust model settings like temperature and top-p values to control creativity and predictability.
@@ -66,18 +71,21 @@ FOR DOCUMENTS
 •  /architecturephoto — Architectural photography 
 •  /hyperrealistic — Extreme realism 
 
-### APPLICATION PROMPTS
+~~~
 
+
+### APPLICATION PROMPTS
+~~~
 1, "I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion request is "I am in Istanbul/Beyoğlu and I want to visit only museums.""<TRAVEL>
 2., "I'm looking for a [type of email] that will speak directly to the needs and pain points of my [ideal customer persona] and persuade them to take [desired action] with a sense of urgency and strong offer."<EMAIL MARKETING>
 3.“I want you to act as a storyteller. You will come up with entertaining stories that are engaging, imaginative and captivating for the audience. It can be fairy tales, educational stories or any other type of stories which has the potential to capture people's attention and imagination. Depending on the target audience, you may choose specific themes or topics for your storytelling session e.g., if it’s children then you can talk about animals; If it’s adults then history-based tales might engage them better etc. My first request is "I need an interesting story on perseverance.”
 <STORY TELLING>
-
+~~~
 ### CORE TAKEAWAYS
-
+~~~
 •	Clarity matters: Specific instructions and explicit constraints prevent vague or off-target responses.
 •	Cost-effective optimization: Adjusting prompts is the fastest and cheapest way to improve output quality without retraining models.
 •	Advanced techniques: Methods like chain-of-thought and role assignments help guide logical reasoning and formatting
-
+~~~
 ## CONCLUSION
 In conclusion, prompt engineering serves as the essential communication bridge that bridges human intent and machine understanding to maximize the performance of artificial intelligence. Prompt engineering is important because it directly controls the quality, accuracy, and relevance of outputs from artificial intelligence. Traditional prompt engineering is largely obsolete, but the core discipline has evolved into context engineering and system architecture design. 
